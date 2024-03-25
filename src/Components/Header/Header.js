@@ -1,47 +1,51 @@
-import './Header.css'
-import logo from "../../Assets/logo.JPG"
+import './Header.css';
+import { useNavigate } from "react-router-dom";
+import logo from "../../Assets/logo.JPG";
+import ProfileIcon from "../../Assets/ProfileIcon.JPG";
 
-const navButton = ({text, path}) => {
-    // Import the useNavigate hook from react-router-dom
+const NavButton = ({text, path}) =>{
     const navigate = useNavigate()
+
     return(
-        // When the button is clicked, call the navigate function with the provided path
-        <button className='Nav-Button' onClick={ () => navigate(path)}>
-            {text}
-        </button>
+    <button className="nav-button" onClick={() => navigate(path)}>
+        {text}
+    </button>
     )
 }
-
+ 
 const Header = () => {
     return(
         <nav className='navbar'>
             <div className='container'>
-                <div className='logo'><img src={logo} height={80}/></div>
+                <div className='logo'>
+                    <img src={logo} height={80}/>
+                </div>
                 <ul className='nav'>
-                    <li>
-                        <navButton text="Home" path="/home"/>
+                    <li>       
+                        <NavButton text="WHAT'S HERE" path="/About us"/>           
                     </li>
                     <li>
-                        <navButton text= "About us" path="/AboutUs"/>
+                        <NavButton text="OUR HOTEL" path="/HotelBooking"/>                              
+                    </li> 
+                    <li>
+                        <NavButton text="EDUCATIONAL VISITS" path="/EducationalViists"/>                                               
                     </li>
                     <li>
-                        <navButton/>
-                    </li>
-                    <li>
-                        <navButton/>
-                    </li>
-                    <li>
-                        <navButton/>
-                    </li>
-                    <li>
-                        <navButton/>
-                    </li>
-                    
+                        <NavButton text="ZOO TICKETS" path="/ZooBooking"/>                                 
+                    </li>             
                 </ul>
-    
+                <div className="login-section">
+                    <div className="profile-icon">
+                        <img src={ProfileIcon} height={40}/>
+                        <i className="fas fa-user-circle"></i>
+                    </div>
+                    <button className="login-button">Log In</button>
+                </div>       
             </div>
-        </nav>
+        </nav> 
     )
 }
 
 export default Header
+
+

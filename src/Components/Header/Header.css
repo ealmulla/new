@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.container{
+    max-width: 1100px;
+    margin:0 auto;
+    padding: 0 30px;
+}
+
+
+.navbar {
+    background:rgb(255, 255, 255) ;
+    height: 100pxpx;
+}
+
+
+.logo{
+    font-size: x-large;
+    font-weight: bold;
+    margin-right: 10px;
+   
+   
+}
+
+.navbar .nav-button {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+}
+
+.navbar .nav-button:hover {
+    color: rgb(74, 155, 114);
+
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul{
+    display: flex;
+   
+    list-style-type: none;
+}
+
+.navbar ul li{
+    margin-left: 10px;
+
+}
+
+.nav{
+    margin: 0;
+    padding: 0;
+}
+
+.login-section {
+    display: flex;
+    align-items: center;
+    margin-top: -20px;
+  }
+  
+.profile-icon{
+    margin-right: 10px;
+    font-size: 24px;
+}
+  
+.login-button {
+    background-color: white;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding-left: 5px;   
+    margin-top: -10px;
+
+}
