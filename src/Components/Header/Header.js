@@ -34,13 +34,14 @@ const Header = () => {
                         <NavButton text="ZOO TICKETS" path="/ZooBooking"/>                                 
                     </li>             
                 </ul>
-                <div className="login-section">
-                    <div className="profile-icon">
+                <div className='login-section'>
+                    <div className='profile-icon'>
                         <img src={ProfileIcon} height={40}/>
-                        <i className="fas fa-user-circle"></i>
                     </div>
-                    <button className="login-button">Log In</button>
-                </div>       
+                    <button className='login-button'>Login</button>
+                </div>
+         
+               
             </div>
         </nav> 
     )

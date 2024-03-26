@@ -1,0 +1,47 @@
+.hero-section {
+    position: relative;
+    height: 500px; /* Adjust the height as needed */
+    overflow: hidden;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+  }
+  
+  .hero-image {
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .book-tickets-btn,
+  .collect-rewards-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .book-tickets-btn {
+    background-color: green;
+    color: white;
+  }
+  
+  .collect-rewards-btn {
+    background-color: orange;
+    color: white;
+  }

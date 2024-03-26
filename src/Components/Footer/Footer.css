@@ -1,0 +1,41 @@
+/* Footer.css */
+
+
+.footer{
+    background-color: orange;
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 200px;
+}
+  
+  .site-information {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nav-buttons{
+    display: flex;
+    gap: 10px;
+  }
+  
+  .footer-nav-button {
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding-left: 20px;
+    
+
+  }
+  
+ .footer-nav-button:hover{
+    color: aquamarine;
+ }
+  .pza {
+    font-weight: bold;
+  }
