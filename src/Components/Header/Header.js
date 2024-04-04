@@ -32,7 +32,10 @@ const Header = () => {
                     </li>
                     <li>
                         <NavButton text="ZOO TICKETS" path="/ZooBooking"/>                                 
-                    </li>             
+                    </li>
+                    <li>
+                        <NavButton text="LOGIN" path="/Login"/>                              
+                    </li>              
                 </ul>
                 <div className='login-section'>
                     <div className='profile-icon'>
