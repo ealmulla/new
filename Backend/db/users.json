@@ -1,7 +1,16 @@
 {
     "users": [
         {
-            
+            "id": "1a98b1b780ba4f1b97d5d51253d0a119",
+            "email": "nawaal@gmail.com",
+            "password": "12345",
+            "username": "nawaal"
+        },
+        {
+            "id": "e973782df2b441d5bd68a8c55301a05f",
+            "email": "nala@gmail.com",
+            "password": "test123",
+            "username": "hi"
         }
     ]
 }

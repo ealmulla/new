@@ -35,7 +35,10 @@ const Header = () => {
                     </li>
                     <li>
                         <NavButton text="LOGIN" path="/Login"/>                              
-                    </li>              
+                    </li>  
+                    <li>
+                        <NavButton text="REGISTER" path="/Register"/>                              
+                    </li>             
                 </ul>
                 <div className='login-section'>
                     <div className='profile-icon'>
