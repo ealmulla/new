@@ -11,6 +11,18 @@
             "email": "nala@gmail.com",
             "password": "test123",
             "username": "hi"
+        },
+        {
+            "id": "f1787edbe2e744c58516b940ff79df02",
+            "email": "elma@yahooo.com",
+            "password": "elma@yahoo.com",
+            "username": "elma"
+        },
+        {
+            "id": "644530ef1ec54b59961eab7c281cfd12",
+            "email": "elma@gmail.com",
+            "password": "123123",
+            "username": "elma"
         }
     ]
 }
